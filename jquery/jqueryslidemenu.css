@@ -1,0 +1,111 @@
+.jqueryslidemenu{
+font: bold 12px Verdana;
+background: none;
+width: 100%;
+position:absolute;
+top:0px;
+right:0px;
+display:block;
+}
+
+.jqueryslidemenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+display: block;
+background: url(../../images/bg-nav-main.gif) repeat-x; /*background of tabs (default state)*/
+color: white;
+padding: 9px 15px;
+border-right: none;
+color: #fff;
+text-decoration: none;
+}
+
+.nobg{
+background: none !important; /*background of tabs (default state)*/
+border-bottom:none !important;
+}
+
+.jqueryslidemenu ul li a.clsSelected{
+background: none !important; /*tab link background during hover state*/
+color: #f4b046 !important;
+}
+.jqueryslidemenu ul li a.clsSelected:hover{
+background: none !important; /*tab link background during hover state*/
+color: #f4b046 !important;
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+color: white;
+}
+
+.jqueryslidemenu ul li a:hover{
+background: none; /*tab link background during hover state*/
+color: #f4b046;
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.jqueryslidemenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.jqueryslidemenu ul li ul li a{
+	background:none;
+	background: #444 !important;
+font: normal 13px Verdana;
+width: 100px; /*width of sub menus*/
+padding: 5px  0px 5px 15px;
+margin: 0;
+border-top-width: 0;
+border-bottom: 1px solid gray;
+text-align:left;
+}
+
+.jqueryslidemenu ul li ul li a:hover{ /*sub menus hover style*/
+background: #82100a !important;
+color: #f4b046;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 13px;
+right: 5px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 10px;
+right: 5px;
+}

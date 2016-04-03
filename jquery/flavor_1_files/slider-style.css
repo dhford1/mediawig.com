@@ -1,0 +1,92 @@
+
+.slideshow_wrapper {
+border-top: 7px solid #dbdbda;
+padding: 20px 0 20px;
+float: left;
+clear: both;
+width: 728px;
+background-color: #fff;
+}
+.slideshow_wrapper_single h1,.slideshow_wrapper_single {
+border-top: none;
+margin-top: 0;
+padding-top: 0;
+}
+.slideshow_wrapper_single {
+float: left;
+margin-top: 20px;
+}
+.slideshow {
+float: left;
+-moz-box-shadow: 3px 3px 3px #dddcdc;
+-webkit-box-shadow: 3px 3px 3px #dddcdc;
+box-shadow: 3px 3px 3px #dddcdc;
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#dddcdc')"; /* For IE 8 */
+margin-bottom: 25px;
+border:solid 1px #dddcdc;
+}
+.slideshow_wrapper_right .slideshow {
+float: right;
+margin-right: 3px;
+}
+.slideshow_description {
+float: left;
+width: 220px;
+margin-left: 20px;
+}
+#main .slideshow_description ul ul {
+margin-bottom: 0;
+}
+.slideshow_wrapper_right .slideshow_description {
+float: right;
+width: 220px;
+margin: 0 20px 0 0;
+}
+.slideshow_title {
+font-family: 'Oswald', arial, serif;
+font-size: 30px;
+padding-bottom: 10px;
+border-bottom: 1px solid #dbdbda;
+margin-bottom: 20px;
+color: #B5B5B5;
+}
+.slideshow_features li {
+background-repeat: no-repeat;
+background-position: 0 4px;
+color: #9f9d9d;
+}
+.view_example:link,.view_example:visited,.view_example:hover {
+padding: 10px 0;
+border-bottom: 1px solid #dbdbda;
+border-top: 1px solid #dbdbda;
+font-family: 'Oswald', arial, serif;
+text-align: center;
+text-decoration: none;
+display: block;
+color: #C6C5C5;
+margin-top: 20px;
+font-size: 18px;
+}
+.view_example:hover {
+color: #aeadad;
+}
+#top_banner_slideshow {
+position: relative;
+margin: 0 0 0 0;
+-moz-box-shadow: 3px 3px 3px #dddcdc;
+-webkit-box-shadow: 3px 3px 3px #dddcdc;
+box-shadow: 3px 3px 3px #dddcdc;
+}
+#main #top_banner_slideshow p {
+line-height: 64px;
+}
+#top_banner_slideshow .caption {
+position: absolute;
+top: 30px;
+left: 20px;
+font-family: 'Oswald', arial, serif;
+font-size: 45px;
+color: #ededed;
+text-shadow: hsl(0,0%,50%) -1px 1px, hsl(0,0%,50%) -2px 2px, hsl(0,0%,50%) -2px 2px, hsl(0,0%,50%) -2px 2px, hsl(0,0%,50%) -2px 2px;
+line-height: auto;
+}
